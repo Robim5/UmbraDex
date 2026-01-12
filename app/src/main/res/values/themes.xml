@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.UmbraDex" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Splash / ecrã inicial (fallback para versões anteriores ao Android 12) -->
+        <item name="android:windowBackground">@drawable/splash_background</item>
+
+        <!-- Mantém sem barra de ação -->
+        <item name="android:windowNoTitle">true</item>
+        
+        <!-- Barra de estado e navegação escuras -->
+        <item name="android:statusBarColor">#0A0A10</item>
+        <item name="android:navigationBarColor">#0A0A10</item>
+    </style>
+
+    <!-- Tema específico para a Splash Screen (usando compat library) -->
+    <style name="Theme.UmbraDex.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#0A0A10</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="windowSplashScreenAnimationDuration">500</item>
+        <item name="postSplashScreenTheme">@style/Theme.UmbraDex</item>
+    </style>
+</resources>

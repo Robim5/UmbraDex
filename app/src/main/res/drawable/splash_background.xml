@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Fundo em gradiente preto/roxo para o ecrã de arranque -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#0A0A10"
+                android:endColor="#1C0F32"
+                android:angle="90" />
+        </shape>
+    </item>
+
+    <!-- Logo centrada -->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/logo" />
+    </item>
+</layer-list>

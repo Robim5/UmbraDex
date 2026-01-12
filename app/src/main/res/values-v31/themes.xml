@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Tema para Android 12+ (API 31+) com a nova Splash Screen API -->
+    <style name="Theme.UmbraDex" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Splash Screen API (Android 12+) -->
+        <item name="android:windowSplashScreenBackground">#0A0A10</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="android:windowSplashScreenAnimationDuration">500</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">#1C0F32</item>
+
+        <!-- Background fallback -->
+        <item name="android:windowBackground">@drawable/splash_background</item>
+
+        <!-- Mantém sem barra de ação -->
+        <item name="android:windowNoTitle">true</item>
+
+        <!-- Barra de estado e navegação escuras -->
+        <item name="android:statusBarColor">#0A0A10</item>
+        <item name="android:navigationBarColor">#0A0A10</item>
+    </style>
+
+    <!-- Tema específico para a Splash Screen (Android 12+) -->
+    <style name="Theme.UmbraDex.Splash" parent="Theme.UmbraDex">
+        <item name="android:windowSplashScreenBackground">#0A0A10</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="android:windowSplashScreenAnimationDuration">500</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">#1C0F32</item>
+    </style>
+</resources>

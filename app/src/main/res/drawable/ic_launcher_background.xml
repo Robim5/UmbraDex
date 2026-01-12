@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Fundo principal preto -->
+    <path
+        android:fillColor="#0A0A10"
+        android:pathData="M0,0h108v108h-108z" />
+    <!-- Gradiente roxo superior -->
+    <path
+        android:fillColor="#1C0F32"
+        android:pathData="M0,0 L108,0 L108,54 Q54,72 0,54 Z" />
+    <!-- Detalhes roxos nos cantos -->
+    <path
+        android:fillColor="#2D1B4E"
+        android:fillAlpha="0.5"
+        android:pathData="M0,0 L30,0 L0,30 Z" />
+    <path
+        android:fillColor="#2D1B4E"
+        android:fillAlpha="0.5"
+        android:pathData="M108,0 L78,0 L108,30 Z" />
+</vector>

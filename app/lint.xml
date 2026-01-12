@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <!-- Desativa o warning de opt-in para Serialization -->
+    <issue id="UnsafeOptInUsageError" severity="ignore">
+        <option name="opt-in" value="kotlinx.serialization.InternalSerializationApi,kotlinx.serialization.ExperimentalSerializationApi" />
+    </issue>
+</lint>
