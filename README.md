@@ -2,8 +2,6 @@
 
 A gamified Pokédex Android application that brings the Pokémon collecting experience to mobile devices with a dark, immersive theme. Built with modern Android technologies and powered by Supabase backend.
 
-![UmbraDex Banner](https://via.placeholder.com/800x200/6B46C1/FFFFFF?text=UmbraDex+-+Dark+Pokedex)
-
 ## 🌟 Features
 
 ### Core Functionality
@@ -51,7 +49,9 @@ A gamified Pokédex Android application that brings the Pokémon collecting expe
 
 ## 📱 Screenshots
 
-*Add screenshots here showing the app's interface*
+![Chose Your Starter](images/image.png)
+![Pokedex Screen](images/image-2.png)
+![Living Dex Screen](images/image-3.png)
 
 ## 🚀 Getting Started
 
@@ -217,7 +217,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-For support, email support@umbradex.com or join our Discord community.
+For support, join our Discord community.
 
 ---
 
