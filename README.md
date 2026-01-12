@@ -49,9 +49,11 @@ A gamified Pokédex Android application that brings the Pokémon collecting expe
 
 ## 📱 Screenshots
 
-![Chose Your Starter](images/image.png)
-![Pokedex Screen](images/image-2.png)
-![Living Dex Screen](images/image-3.png)
+<p align="center">
+  <img src="images/image.png" width="200" alt="Choose Your Starter" style="margin: 0 10px;">
+  <img src="images/image-2.png" width="200" alt="Pokédex Screen" style="margin: 0 10px;">
+  <img src="images/image-3.png" width="200" alt="Living Dex Screen" style="margin: 0 10px;">
+</p>
 
 ## 🚀 Getting Started
 
