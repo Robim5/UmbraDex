@@ -67,7 +67,7 @@ A gamified Pokédex Android application that brings the Pokémon collecting expe
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/UmbraDex.git
+   git clone https://github.com/Robim5/UmbraDex.git
    cd UmbraDex
    ```
 
